@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App({ signOut, user }) {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +17,11 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Hello {user.username}</h1>
+        <button onClick={signOut}>Sign out</button>
       </header>
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
