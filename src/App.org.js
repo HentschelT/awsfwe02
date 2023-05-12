@@ -8,7 +8,7 @@ import '@aws-amplify/ui-react/styles.css';
 
 import awsExports from './aws-exports';
 Amplify.configure(awsExports);
-const apiName = 'armadafwe';
+const apiName = 'awsfwe';
 
 var what = 'signals';
 var method = "GET";
@@ -23,8 +23,8 @@ let config = {};
 config.API = {
   endpoints: [
     {
-      name: "armadafwe",
-      endpoint: "https://runwgrno73.execute-api.eu-central-1.amazonaws.com/v1/",
+      name: "awsfwe",
+      endpoint: "https://54obj70jc8.execute-api.us-east-1.amazonaws.com/v1",
       custom_header: async () => {
 //       return { Authorization : 'token' }
           return { Authorization: `Bearer ${(await Auth.currentSession()).getIdToken().getJwtToken()}` }
