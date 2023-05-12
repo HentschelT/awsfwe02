@@ -8,6 +8,14 @@
       "serviceType": "imported"
     }
   },
+  "function": {
+    "GetFleets": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "parameters": {
     "AMPLIFY_auth_awsfwe02f4d54e2e_nativeClientId": {
       "usedBy": [
@@ -38,6 +46,22 @@
         {
           "category": "auth",
           "resourceName": "awsfwe02f4d54e2e"
+        }
+      ]
+    },
+    "AMPLIFY_function_GetFleets_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "GetFleets"
+        }
+      ]
+    },
+    "AMPLIFY_function_GetFleets_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "GetFleets"
         }
       ]
     }

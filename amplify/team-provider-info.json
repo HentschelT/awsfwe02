@@ -19,6 +19,12 @@
           "webClientId": "2lcabvjemk9svk35d6s8h88u07",
           "nativeClientId": "2lcabvjemk9svk35d6s8h88u07"
         }
+      },
+      "function": {
+        "GetFleets": {
+          "deploymentBucketName": "amplify-awsfwe02-dev-03517-deployment",
+          "s3Key": "amplify-builds/GetFleets-65384f5655442b433241-build.zip"
+        }
       }
     }
   }
