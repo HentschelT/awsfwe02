@@ -2,11 +2,9 @@
   "authSelections": "userPoolOnly",
   "resourceName": "awsfwe02f4d54e2e",
   "serviceType": "imported",
-  "region": "us-east-1",
+  "region": "eu-central-1",
   "aliasAttributes": [
-    "email",
-    "phone_number",
-    "preferred_username"
+    "email"
   ],
   "authProvidersUserPool": [],
   "requiredAttributes": [
@@ -16,7 +14,6 @@
   "passwordPolicyMinLength": 8,
   "passwordPolicyCharacters": [
     "Requires Lowercase",
-    "Requires Uppercase",
     "Requires Numbers"
   ],
   "mfaConfiguration": "OFF",

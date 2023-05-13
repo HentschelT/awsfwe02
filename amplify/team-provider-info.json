@@ -1,28 +1,28 @@
 {
-  "dev": {
+  "armatest": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-awsfwe02-dev-03517-authRole",
-      "UnauthRoleArn": "arn:aws:iam::086498192581:role/amplify-awsfwe02-dev-03517-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::086498192581:role/amplify-awsfwe02-dev-03517-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-awsfwe02-dev-03517-deployment",
-      "UnauthRoleName": "amplify-awsfwe02-dev-03517-unauthRole",
-      "StackName": "amplify-awsfwe02-dev-03517",
-      "StackId": "arn:aws:cloudformation:us-east-1:086498192581:stack/amplify-awsfwe02-dev-03517/0e2e9750-e985-11ed-93b1-0a57b24efe49",
-      "AmplifyAppId": "d1pwyz67vkwrg5"
+      "AuthRoleName": "amplify-awsfwe02-armatest-185908-authRole",
+      "UnauthRoleArn": "arn:aws:iam::381552493616:role/amplify-awsfwe02-armatest-185908-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::381552493616:role/amplify-awsfwe02-armatest-185908-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-awsfwe02-armatest-185908-deployment",
+      "UnauthRoleName": "amplify-awsfwe02-armatest-185908-unauthRole",
+      "StackName": "amplify-awsfwe02-armatest-185908",
+      "StackId": "arn:aws:cloudformation:eu-central-1:381552493616:stack/amplify-awsfwe02-armatest-185908/c1b26960-f131-11ed-a7f5-06dea4d23498",
+      "AmplifyAppId": "d35sckgvjq8s5a"
     },
     "categories": {
       "auth": {
         "awsfwe02f4d54e2e": {
-          "userPoolId": "us-east-1_s6j5RBF4g",
-          "userPoolName": "awsfwe-users",
-          "webClientId": "2lcabvjemk9svk35d6s8h88u07",
-          "nativeClientId": "2lcabvjemk9svk35d6s8h88u07"
+          "userPoolId": "eu-central-1_JrK4Odt30",
+          "userPoolName": "armada-users",
+          "webClientId": "6u64o1r6mo68at9f0fgktem508",
+          "nativeClientId": "6u64o1r6mo68at9f0fgktem508"
         }
       },
       "function": {
         "GetFleets": {
-          "deploymentBucketName": "amplify-awsfwe02-dev-03517-deployment",
+          "deploymentBucketName": "amplify-awsfwe02-armatest-185908-deployment",
           "s3Key": "amplify-builds/GetFleets-65384f5655442b433241-build.zip"
         }
       }
